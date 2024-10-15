@@ -5,21 +5,22 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
-
-    <Button
-        android:id="@+id/btnAddTask"
+    <EditText
+        android:id="@+id/etTaskName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Task" />
+        android:hint="Enter task name"
+        android:inputType="text"/>
 
     <Button
-        android:id="@+id/btnAbout"
+        android:id="@+id/btnSave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="About" />
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
 </LinearLayout>
