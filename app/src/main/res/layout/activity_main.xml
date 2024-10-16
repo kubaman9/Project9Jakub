@@ -5,11 +5,18 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="Listify: My To-Do List"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_width="376dp"
+        android:layout_height="453dp" />
 
     <Button
         android:id="@+id/btnAddTask"
